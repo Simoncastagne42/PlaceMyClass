@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  background-color: #BCB8B1;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+#Table-1 {
+  width: 50%;
+  height: 100px;
+  /* background-color: #8A817C; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+body{
+    width: 100vh;
+}
+
+.Place {
+  width: 50px;
+  height: 50px;
+  background-color: #463F3A;
+}
+
+#Table-2{
+    width: 6.3%;
+    height: 50%;
+    /* background-color: #8A817C; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+}
+
+#Table-3 {
+    width: 50%;
+    height: 100px;
+    /* background-color: #8A817C; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+  }
