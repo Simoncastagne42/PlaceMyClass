@@ -1,5 +1,42 @@
 
 
+#header {
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+
+
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #colone-droite {
     display: flex;
     justify-content: center;
@@ -46,6 +83,5 @@
         height: 100px;
         width: 500px;
         font-size: x-large;
-       
-
+    
     }
