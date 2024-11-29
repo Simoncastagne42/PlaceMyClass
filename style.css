@@ -1,87 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
 
+  background-color: #bcb8b1;
+}
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
 
 #header {
-    font-size: 5vh;
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
-
-
+  font-size: 5vh;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #colone-droite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: x-large;
-    height: 650px;
-    width: 400px;
-    gap: 100px;
-    padding-left: 75%;
-    }
-
-
-
-
-#liste-participants {
-    border: 2px solid black;
-    background-color: antiquewhite;
-    height: 650px;
-    width: 300px;
-    display:inline;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+  height: 650px;
+  width: 400px;
+  gap: 20px;
+  padding-right: 100px;
+  
 }
 
+#liste-participants {
+  border: 2px solid black;
+  background-color: antiquewhite;
+  height: 650px;
+  width: 300px;
+  display: inline;
+  text-align: center;
+  border-radius: 5px;
+}
 
+#ajoutez {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: antiquewhite;
+  height: 100px;
+  width: 300px;
+  border-radius: 5px;
+}
 
-    #ajouter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid black;
-        background-color: antiquewhite;
-        height: 100px;
-        width: 300px;
+#generer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: antiquewhite;
+  height: 100px;
+  width: 500px;
+  font-size: x-large;
+  margin-left: 750px;
+  border-radius: 5px;
+}
 
-    }
+#Salle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 70px;
+  margin-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
-    #generer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid black;
-        background-color: antiquewhite;
-        height: 100px;
-        width: 500px;
-        font-size: x-large;
-    
-    }
+#Table-1 {
+  width: 100%;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 40px; */
+}
+
+.Place {
+  width: 100px;
+  height: 100px;
+  background-color: #463f3a;
+  border-radius: 5px;
+}
+
+#Table-2 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#Table-3 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 40px; */
+}
+
+#centre {
+  display: flex;
+  justify-content: space-between;
+}
