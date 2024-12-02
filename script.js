@@ -12,7 +12,7 @@ document.addEventListener("click", (event) => {
   });
 
 
-  document.addEventListener("click",handleOnClickAdd) ;
+  addButton.addEventListener("click",handleOnClickAdd) ;
   function handleOnClickAdd() {
     // Récupère la valeur de l'input
     const valeur = addParticipant.value;
@@ -28,3 +28,19 @@ document.addEventListener("click", (event) => {
         // rénitialise le champ
         addParticipant.value = "";
   }
+
+  let tableauNom = ["simon", "Hamza", "Ali", "Karl", "Jeremy"]
+
+
+function shuffle (tableauAleatoire){
+    for(let i = tableauAleatoire.length - 1; i >= 0; i -=1){
+        const indexTableau = Math.floor(Math.random()*(i+1));
+    tableauAleatoire.push(tableauAleatoire[indexTableau]);
+    tableauAleatoire.splice(indexTableau, 1);
+}
+return tableauAleatoire
+}
+
+shuffle(tableauNom);
+
+console.log(tableauNom)
