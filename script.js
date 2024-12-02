@@ -12,7 +12,7 @@ document.addEventListener("click", (event) => {
   });
 
 
-  document.addEventListener("click",handleOnClickAdd) ;
+  addButton.addEventListener("click",handleOnClickAdd) ;
   function handleOnClickAdd() {
     // Récupère la valeur de l'input
     const valeur = addParticipant.value;
