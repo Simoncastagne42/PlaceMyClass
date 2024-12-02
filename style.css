@@ -1,13 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-
-
 }
+
+
+@font-face {
+  font-family: Poppins;
+
+  src: url(./fonts/Poppins-Regular.ttf);
+  
+}
+
 body {
   min-height: 100vh;
   min-width: 100vw;
   background-color: #bcb8b1;
+  font-family: Poppins;
 
 }
 
@@ -70,6 +78,7 @@ body {
 #ajouter:hover {
 background-color: #463f3a;
 color: white;
+cursor: pointer;
 
 }
 
@@ -82,7 +91,10 @@ color: white;
     border-radius: 10px;
 
   }
+#add:hover {
 
+  cursor: pointer;
+}
 
 .styled-input {
     display: flex;
@@ -110,11 +122,13 @@ color: white;
   font-size: x-large;
   margin-left: 750px;
   border-radius: 15px;
+  text-align: center;
 }
 
 #generer:hover {
     background-color: #463f3a;
     color: white;
+    cursor: pointer;
 
   }
 
@@ -226,4 +240,6 @@ img{
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+  font-size: large;
 }
+
