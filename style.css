@@ -76,9 +76,10 @@ color: white;
 #add {
     height: 40px;
     width: 40px;
-    background-color: white;
-    color: green;
+    background-color: antiquewhite;
+    color: #463f3a;
     font-size: xx-large;
+    border-radius: 10px;
 
   }
 
