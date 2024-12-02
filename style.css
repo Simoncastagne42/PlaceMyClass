@@ -219,3 +219,10 @@ img{
   width: 300px;
   margin-left: 800px;
 }
+
+.Place{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
