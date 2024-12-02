@@ -2,6 +2,13 @@ const addParticipant = document.querySelector("#ajouter");
 const addButton = document.querySelector("#add");
 const participantsList = document.querySelector("#liste-participants");  
 let tableauNom = [];
+let audio = new Audio ("./sonic.mp3")
+let boutonSon = document.querySelector("#bouton")
+let audioDeux = new Audio ("./Renaud.mp3")
+let audioTrois = new Audio ("./trompette.mp3")
+
+
+
 const generer = document.querySelector("#generer")
 const places = document.querySelectorAll(".Place")
 
@@ -33,6 +40,7 @@ document.addEventListener("click", (event) => {
         // rénitialise le champ
         addParticipant.value = "";
        
+        audio.play();
   }
 
 generer.addEventListener("click", handleClick)
@@ -45,6 +53,7 @@ function handleClick(){
 places.forEach((place, index) => {
   
   place.innerHTML = tableauMelanger[index]
+ audioTrois.play()
   
 });
 
@@ -58,4 +67,10 @@ function shuffle (tableauAleatoire){
     tableauAleatoire.splice(indexTableau, 1);
 }
 return tableauAleatoire
+}
+
+boutonSon.addEventListener("click", handleClickSound)
+
+function handleClickSound(){
+  audioDeux.play()
 }
